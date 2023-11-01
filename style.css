@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color: #F6F8FC;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+nav svg:nth-of-type(1){
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav svg:nth-of-type(1):hover{
+    background-color: rgb(228, 226, 226);
+}
+nav div{
+    background-color: #EAF1FB;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+}
+nav div input{
+    background: transparent;
+    border: none;
+    font-size: 120%;
+    width: 35vw;
+}
+nav div input:focus{
+    outline: none;
+
+}
+.nav-svg{
+    margin-left: 5px;
+    margin-right:13px ;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.nav-svg:hover{
+    background-color: rgb(218, 216, 216);
+
+}
+main{
+    display: flex;
+}
+
+#left-sidebar {
+    display: inline-block;
+    width:17.5vw;
+    height: 90vh;
+
+}
+#window{
+    display: inline-block;
+    background: white;
+    border-radius: 20px;
+    height: 90vh;
+    width: 78vw;
+}
+
+#left-sidebar button {
+    background-color: hsl(204, 100%, 88%);
+    padding: 18px 25px;
+    border:none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+
+
+}
+#left-sidebar button:hover{
+    box-shadow: 5px 5px 10px silver;
+}
+
+.tab{
+    width: 90%;
+    padding: 10px 0;
+    display: flex;
+  border-radius: 0 20px 20px 0;
+  
+}
+.tab:hover{
+    background-color: rgb(224, 222, 222);
+}
+.tab svg{
+    margin-left: 20px;
+
+}
+.tab p{
+    margin-left: 30px;
+}
+#window-top{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#window-top input{
+ height: 15px;
+ width: 15px;
+}
+
+#window-top svg{
+    margin-left: 10px;
+}
+
+.nav-tab{
+    margin-top: 20px;
+    width: 20vw;
+     
+    height: 50px;
+    display:inline-flex;
+    align-items: center;
+}
+.nav-tab:hover{
+    background-color: rgb(230, 228, 228);
+}
+
+.nav-tab svg{
+    margin-left: 30px;
+
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-top: solid silver 1px;
+    border-bottom: solid silver 1px;
+}
+
+
+.message *{
+    margin-left: 15px;
+
+}
+
+.message p:nth-of-type(1){
+    font-weight: bold;
+    width: 10vw;
+}
+
+.message:hover{
+    
+    box-shadow: 5px 5px 10px rgb(151, 151, 151);
+    transition: 0.10s;
+}
